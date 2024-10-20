@@ -1,0 +1,21 @@
+{
+	"vue3代码配置": {
+		"scope": "vue,javascript,typescript",
+		"prefix": "v3",
+		"body": [
+			"<template>",
+			"<div>",
+			"</div>",
+			"</template>",
+			"<script lang=\"ts\">",
+			"export default {",
+			"name:",
+			"}",
+			"</script>",
+			"<style>",
+			"",
+			"</style>"
+		],
+		"description": "vue"
+	}
+}
