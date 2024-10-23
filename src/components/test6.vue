@@ -7,8 +7,8 @@
 </template>
 
 <script lang="ts" setup name="test6">
-import type { Persons } from '@/types';
-import {withDefaults}  from 'vue';
+import { type Persons } from '@/types';
+import { withDefaults } from 'vue';
 
 
 // 接受a，仅在html中使用
