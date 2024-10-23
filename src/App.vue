@@ -1,11 +1,13 @@
 <template>
     <div class="app">
-        <test9/>
+        <count />
+        <love />
     </div>
 </template>
 
 <script lang="ts" setup name="App">
-import test9 from './components/test9.vue'
+import count from './components/test10-pinia.vue'
+import love from './components/test11-pinia.vue'
 
 
 </script>
