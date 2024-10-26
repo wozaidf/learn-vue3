@@ -7,8 +7,16 @@ import App from "./App.vue";
 import router from '@/router/index'
 
 // 创建根组件并挂在入口文件 （将花根植入花盆并且放在阳台（位置））
-
 const app = createApp(App)
+
+// 第一步引入pinia
+import { createPinia } from 'pinia'
+
+// 第二步：创建pinia
+const pinia = createPinia()
+
+// 第三步：安装pinia
+app.use(pinia)
 
 // 使用路由
 app.use(router)

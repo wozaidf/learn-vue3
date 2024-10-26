@@ -1,7 +1,7 @@
 <template>
     <div class="app">
         <count />
-        <love />
+        <love style="margin-top: 10px;" />
     </div>
 </template>
 
